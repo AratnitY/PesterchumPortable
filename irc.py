@@ -347,7 +347,10 @@ class PesterHandler(DefaultCommandHandler):
         # display msg, do other stuff
         if len(msg) == 0:
             return
-        # silently ignore CTCP
+        # Notice IRC /me (The CTCP kind)
+        if msg[0:8] == '\x01ACTION ':
+            msg = '/me' + msg[7:-1]
+        # silently ignore the rest of the CTCPs
         if msg[0] == '\x01':
             handle = nick[0:nick.find("!")]
             logging.info("---> recv \"CTCP %s :%s\"" % (handle, msg[1:-1]))
