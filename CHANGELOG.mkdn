@@ -27,6 +27,7 @@ CHANGELOG
 * Automatic NickServ/Services identification - brachyonic & AratnitY (They wrote the code. I just made it work. ~AratnitY)
 * Pester handle directly from the userlist in a memo - OnVar
 * /me's from IRC users now show up in chat - OnVar
+* Added /ison before GETMOOD to check for IRC users that aren't connected to #pesterchum - OnVar
 * Bug fixes
     * Don't require pygame (it's kind of optional, you just don't get sound) - Kiooeht [evacipatedBox]
     * Allow add chum dialog to open after adding an existing chum - Kiooeht [evacipatedBox]
