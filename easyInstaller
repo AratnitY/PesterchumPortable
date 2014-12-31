@@ -51,11 +51,11 @@ try:
                 return path
 
     if not os.path.exists(_HOME+"/.pcInstallLoc"):
-        print "Welcome to the Pesterchum 3.14 Easy Installer (for Linux)!\n\
+        print "Welcome to the Pesterchum 3.41 Easy Installer (for Linux)!\n\
         Created by Kiooeht [evacipatedBox] May 28th-29th, 2011.\n\
         License: WTFPL\n\
         \n\
-    Leaving an option blank will accept it's default [in brackets]\n\
+    Leaving an option blank will accept its default [in brackets]\n\
     Are you ready to begin your MAGICAL JOURNEY?!\n\
     Of course you are!!! ::::D"
         # ask user about things
